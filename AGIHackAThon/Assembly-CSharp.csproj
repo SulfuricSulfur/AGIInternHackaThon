@@ -61,13 +61,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Planet Earth Free\SpinFree.cs" />
     <Compile Include="Assets\Scripts\DistanceDetect.cs" />
+    <Compile Include="Assets\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Seek.cs" />
+    <Compile Include="Assets\Scripts\ShootingStarsEnabled.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+    <None Include="Assets\StreamingAssets\Vuforia\AGIHackathon.xml" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+    <None Include="Assets\Vuforia\Shaders\Glow.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
