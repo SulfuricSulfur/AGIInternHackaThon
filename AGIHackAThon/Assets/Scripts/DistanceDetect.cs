@@ -26,7 +26,7 @@ public class DistanceDetect : MonoBehaviour {
             float tempD = Vector3.Distance(obj1.transform.position, obj2.transform.position);
             if(tempD <= distance)
             {
-                obj1.transform.Rotate(Vector3.up, 25 * Time.deltaTime);
+                obj1.transform.Rotate(Vector3.right, 55 * Time.deltaTime);
             }
         }
 		
