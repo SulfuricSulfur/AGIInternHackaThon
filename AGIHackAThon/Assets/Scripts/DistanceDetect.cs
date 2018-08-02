@@ -26,12 +26,18 @@ public class DistanceDetect : MonoBehaviour {
         if(obj1Track.IsActive == true && obj2Track.IsActive == true)
         {
             float tempD = Vector3.Distance(obj1.transform.position, obj2.transform.position);
+
+            //attach the child object to one of the parents
+            child.transform.SetParent(obj1, false);
+
+            //if the parents are close
             if(tempD <= distance)
             {
-                 //if there isn't a child already made
-                if(GameObject.FindWithTag("Child")==null){
-                    Instantiate(child, obj1.transform.position, Quaternion.identity);
-                }
+                //render the child active
+                child.SetActive(true);
+            }
+            else{
+                child.SetActive(false);
             }
         }	
 	}
