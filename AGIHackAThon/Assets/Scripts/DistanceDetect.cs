@@ -28,11 +28,10 @@ public class DistanceDetect : MonoBehaviour {
             float tempD = Vector3.Distance(obj1.transform.position, obj2.transform.position);
             if(tempD <= distance)
             {
-                /*if(GameObject.FindWithTag("Child")!=null){
-                    Instantiate(obj3);
-                    obj3.transform.Rotate(Vector3.up, 25 * Time.deltaTime);
+                 //if there isn't a child already made
+                if(GameObject.FindWithTag("Child")==null){
+                    Instantiate(child, obj1.transform.position, Quaternion.identity);
                 }
-                */
             }
         }	
 	}
