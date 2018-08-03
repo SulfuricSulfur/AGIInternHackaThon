@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{9078E71D-5A61-F9A4-741E-D4A5EFBF7178}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rotate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Vuforia/Shaders/DepthMask.shader">
     <Files>
-      <File FileName="Assets/Scripts/DistanceDetect.cs" Line="24" Column="1" />
-      <File FileName="Assets/Scripts/Seek.cs" Line="24" Column="38" />
-      <File FileName="Assets/Scripts/ShootingStarsEnabled.cs" Line="38" Column="9" />
-      <File FileName="Assets/Scripts/Rotate.cs" Line="21" Column="43" />
+      <File FileName="Assets/Scripts/DistanceDetect.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/Seek.cs" Line="25" Column="20" />
+      <File FileName="Assets/Scripts/ShootingStarsEnabled.cs" Line="39" Column="37" />
+      <File FileName="Assets/Scripts/Rotate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DoorKeyOpen.cs" Line="32" Column="18" />
+      <File FileName="Assets/Vuforia/Shaders/DepthMask.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
