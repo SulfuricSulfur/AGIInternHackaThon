@@ -68,10 +68,12 @@
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Seek.cs" />
     <Compile Include="Assets\Scripts\ShootingStarsEnabled.cs" />
+    <Compile Include="Assets\Scripts\UnicornClover.cs" />
+    <Compile Include="Assets\UETools\Magic_Particle_Effects\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-    <None Include="Assets\StreamingAssets\Vuforia\AGIHackathon.xml" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\AGIHackathon.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
@@ -80,6 +82,7 @@
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\UETools\Magic_Particle_Effects\Readme.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\testdatabase.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\test2.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
