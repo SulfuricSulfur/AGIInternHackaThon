@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="crown" size="1.000000 1.000000" />
+    <ImageTarget name="snowflake-door" size="1.000000 1.000000" />
+    <ImageTarget name="key" size="1.000000 1.000000" />
+    <ImageTarget name="pot-of-gold" size="1.000000 1.000000" />
     <ImageTarget name="unicorn" size="1.000000 1.000000" />
     <ImageTarget name="star" size="1.000000 1.000000" />
     <ImageTarget name="moon" size="1.000000 1.000000" />
