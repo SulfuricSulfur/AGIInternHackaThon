@@ -64,7 +64,6 @@
     <Compile Include="Assets\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Planet Earth Free\SpinFree.cs" />
     <Compile Include="Assets\Scripts\DistanceDetect.cs" />
-    <Compile Include="Assets\Scripts\DoorKeyOpen.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Seek.cs" />
     <Compile Include="Assets\Scripts\ShootingStarsEnabled.cs" />
